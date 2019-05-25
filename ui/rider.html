@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ride My Way | Rider</title>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Kodchasan|Pacifico|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			color: #e0e0e0;
+			background: #f7751f;
+			margin: 0;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		nav {
+			position: fixed;
+			width: 100%;
+			background: rgba(0,0,0,0.6);
+		}
+
+		#header {
+			background: url(car-bg-drive.jpg) no-repeat center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			-o-background-size: cover;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.link {
+			font-family: 'Baloo Bhai', cursive;
+			color: #d2d2d2;
+			margin-right: 50px;
+			font-size: 14pt;
+		}
+
+		.link:hover {
+			color: #f7752e;
+		}
+
+		ul li a{
+			text-decoration: none;
+		}
+
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+		}
+
+		.profile {
+			margin-left: 50pt;
+		}
+
+		.header {
+			text-align: center;
+			color: #f7750f;
+			font-size: 25px;
+			padding-top: 125pt;
+			padding-bottom: 300pt;
+		}
+
+		#join {
+			font-size: 60pt;
+			color: #e0e0e0;
+			font-family: 'Pacifico', cursive;
+		}
+
+		#respond {
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			padding: 100pt 90pt;
+		}
+
+		#view {
+			text-align: center;
+			background: rgba(0,0,0,0.5);
+			padding: 100pt 90pt;
+			color: #d0d0d0;
+		}
+
+		#ride {
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			padding: 85pt 90pt;
+			color: #c8c8c8;
+		}
+
+		h2 {
+			font-size: 32pt;
+			font-family: 'Baloo Bhai', cursive;
+		}
+
+		.detail {
+			font-size: 16pt;
+			padding: 20pt 20pt;
+		}
+
+		.button {
+		    border: none;
+		    padding: 12px 16px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    margin: 10px 5px;
+		    -webkit-transition-duration: 0.4s;
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+
+		.accept {
+		    background-color: transparent; 
+		    color: #e8e8e8; 
+		    border: 2px solid #e8e8e8;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 12pt;
+		}
+
+		.accept:hover {
+		    background-color: rgba(0,0,0,0.6);
+		    color: #f37430;
+		    border: 2px solid rgba(255,255,255,0.6);
+		}
+
+		td, th {
+			font-size: 16pt;
+			padding: 5pt 30pt;
+		}
+
+		input[type=text] {
+			font-family: 'Kodchasan', sans-serif;
+			font-size: 14pt;
+			color: #e8e8e8;
+			text-align: center;
+			padding: 5pt 30pt;
+			background: transparent;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+		}
+
+		.request {
+		    background-color: transparent; 
+		    color: #d7d7d7; 
+		    border: 2px solid #e8e8e8;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		    margin-top: 30pt;
+		    margin-bottom: 5pt; 
+		}
+
+		.request:hover {
+		    background-color: rgba(0,0,0,0.6);
+		    color: #f37430;
+		    border: 2px solid rgba(255,255,255,0.6);
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			background: black;
+			color: #f7751f;
+		}
+	</style>
+</head>
+<body>
+	<section id="header">
+		<nav>
+		<ul>
+			<li><a href="#" class="brand"><font size="6">Ride My Way</font></a></li>	
+			<li><a href="#" class="link" id="d1" onclick="active1()">Home</a></li>
+			<li><a href="#respond" class="link" id="d2" onclick="active2()">Join a ride offer</a></li>
+			<li><a href="#view" class="link" id="d3" onclick="active3()">View ride offers</a></li>
+			<li><a href="#ride" class="link" id="d4" onclick="active4()">Ride offer requests</a></li>
+			<li><a href="sign-in-rider.html" class="link" id="d5" onclick="active5()">Sign out</a></li>
+			<li><img src="profile.png" width="55" height="41" class="profile" title="Kija"></li>
+		</ul>
+	</nav>
+		<div class="header"><br>
+		<p id="join"></p>
+		</div>
+	</section>
+
+	<section id="respond">
+		<h2>Join a ride offer</h2>
+		<p class="detail">Respond to the available ride offers by clicking the beside button. Number of ride offers taken: 1 out of 3</p>
+		<table align="center">
+			<tr>
+				<td>Ride offer to Tabata at 7am</td>
+				<td><button class="button accept" onclick="accepted1()" id="change1">Accept</button></td>
+			</tr>
+			<tr>
+				<td>Ride offer to Kibaha at 9am</td>
+				<td><button class="button accept" onclick="accepted2()" id="change2">Accept</button></td>
+			</tr>
+			<tr>
+				<td>Ride offer to Kijitonyama at 4pm</td>
+				<td><button class="button accept" onclick="accepted3()" id="change3">Accept</button></td>
+			</tr>
+		</table>
+	</section>
+
+	<section id="view">
+		<h2>View ride offers</h2>
+		<p class="detail">View destination, time to leave, status and the name of driver who created the ride offer. Note that: when the time to leave comes to pass, the ride offer cancels automatically.</p>
+		<table align="center">
+			<tr>
+				<th>Ride number</th>
+				<th>Destination</th>
+				<th>Time to leave</th>
+				<th>Status</th>
+				<th>Name of driver</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Tabata</td>
+				<td>7am</td>
+				<td>Accepted</td>
+				<td>Michael</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Kibaha</td>
+				<td>9am</td>
+				<td>Pending</td>
+				<td>Paschal</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Kijitonyama</td>
+				<td>4pm</td>
+				<td>Pending</td>
+				<td>Arnold</td>
+			</tr>
+		</table>
+	</section>
+	<section id="ride">
+		<h2>Ride offer requests</h2>
+		<p class="detail">Create ride offer request for drivers to respond to. Type the destination and departure time. Number of ride offer requests created: 3</p>
+		<table align="center">
+			<tr>
+				<td>Destination: </td>
+				<td>Departure time: </td>
+			</tr>
+			<tr>
+				<td><input type="text"></td>
+				<td><input type="text"></td>
+			</tr>
+		</table>
+		<button class="button request" onclick="request()">Request</button>
+		<p class="detail">View name of the driver who accepted your ride offer request, destination and time-to-leave. Note that: when the time to leave comes to pass, the ride offer request cancels automatically. Number of ride offer requests taken: 1 out of 3</p>
+		<table align="center">
+			<tr>
+				<th>Ride number</th>
+				<th>Name of driver</th>
+				<th>Destination</th>
+				<th>Time to leave</th>
+				<th>Status</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Samwel</td>
+				<td>Kitunda</td>
+				<td>8am</td>
+				<td>Accepted</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>None</td>
+				<td>Kimara</td>
+				<td>11am</td>
+				<td>Pending</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>None</td>
+				<td>Temeke</td>
+				<td>3pm</td>
+				<td>Pending</td>
+			</tr>
+		</table>
+	</section>
+
+
+	<footer>
+		<div class="footer">Copyright &copy; 2019 Ride My Way</div>
+	</footer>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
