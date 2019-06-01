@@ -1,0 +1,847 @@
+/*Styling sign up form for driver*/
+body {
+			font-family: 'Kodchasan', sans-serif;
+			background: #e7712e;
+			color: black;
+			margin: 0;
+		}
+
+		p {
+			text-align: center;
+			font-size: 12px;
+		}
+
+		nav {
+			background: rgba(0,0,0,0.6);
+			padding: 15px 40px;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		form {
+			margin-top: 60px;
+			border: 2px solid black;
+			border-radius: 5px;
+			text-align: left;
+			width: 30%;
+			padding: 50px 40px;
+			font-size: 18px;
+		}
+
+		input[type=text], input[type=password] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid black;
+		  box-sizing: border-box;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 15px;
+		  background: transparent;
+		  border-top: none;
+		  border-left: none;
+		  border-right: none;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: black;
+		  color: #e7712e;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 5px;
+		  cursor: pointer;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 18px;
+		}
+
+		.terms {
+			color: black;
+			font-style: italic;
+			font-weight: 600;
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			color: #000;
+			margin: 20pt 10pt;
+		}
+
+		/*Styling sign up form for rider*/
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			background: #e7712e;
+			color: black;
+			margin: 0;
+		}
+
+		p {
+			text-align: center;
+			font-size: 12px;
+		}
+
+		nav {
+			background: rgba(0,0,0,0.6);
+			padding: 15px 40px;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		form {
+			margin-top: 60px;
+			border: 2px solid black;
+			border-radius: 5px;
+			text-align: left;
+			width: 30%;
+			padding: 50px 40px;
+			font-size: 18px;
+		}
+
+		input[type=text], input[type=password] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid black;
+		  box-sizing: border-box;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 15px;
+		  background: transparent;
+		  border-top: none;
+		  border-left: none;
+		  border-right: none;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: black;
+		  color: #e7712e;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 5px;
+		  cursor: pointer;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 18px;
+		}
+
+		.terms {
+			color: black;
+			font-style: italic;
+			font-weight: 600;
+		}
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			color: #000;
+			margin: 20pt 10pt;
+		}
+
+		/*Styling sign in form for driver*/
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			background: black;
+			color: #f7750f;
+			margin: 0;
+		}
+
+		p {
+			text-align: center;
+			font-size: 12px;
+		}
+
+		nav {
+			background: rgba(0,0,0,0.6);
+			padding: 15px 40px;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		form {
+			margin-top: 60px;
+			border: 2px solid #f7750f;
+			border-radius: 5px;
+			text-align: left;
+			width: 30%;
+			padding: 50px 40px;
+			font-size: 18px;
+		}
+
+		input[type=text], input[type=password] {
+		  width: 100%;
+		  color: #f7751f;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #f7750f;
+		  box-sizing: border-box;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 15px;
+		  background: transparent;
+		  border-top: none;
+		  border-left: none;
+		  border-right: none;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: #f7750f;
+		  color: black;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 5px;
+		  cursor: pointer;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 18px;
+		}
+
+		.create {
+			color: #f7750f;
+			font-style: italic;
+			font-weight: 600;
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			margin: 20pt 10pt;
+			background: black;
+			color: #f7752e;
+		}
+
+		/*Styling sign in form for rider*/
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			background: black;
+			color: #f7750f;
+			margin: 0;
+		}
+
+		p {
+			text-align: center;
+			font-size: 12px;
+		}
+
+		nav {
+			background: rgba(0,0,0,0.6);
+			padding: 15px 40px;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		form {
+			margin-top: 60px;
+			border: 2px solid #f7750f;
+			border-radius: 5px;
+			text-align: left;
+			width: 30%;
+			padding: 50px 40px;
+			font-size: 18px;
+		}
+
+		input[type=text], input[type=password] {
+		  width: 100%;
+		  color: #f7751f;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #f7750f;
+		  box-sizing: border-box;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 15px;
+		  background: transparent;
+		  border-top: none;
+		  border-left: none;
+		  border-right: none;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: #f7750f;
+		  color: black;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 5px;
+		  cursor: pointer;
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 18px;
+		}
+
+		.create {
+			color: #f7750f;
+			font-style: italic;
+			font-weight: 600;
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			background: black;
+			color: #f7752e;
+			margin: 20pt 10pt;
+		}
+
+		/*Styling index home page*/
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			color: black;
+			margin: 0;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		nav {
+			position: fixed;
+			width: 100%;
+			background: rgba(0,0,0,0.6);
+		}
+
+		#header {
+			background: url(car-bg.jpg) no-repeat center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			-o-background-size: cover;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.link {
+			font-family: 'Baloo Bhai', cursive;
+			color: #d2d2d2;
+			margin-right: 80px;
+			font-size: 14pt;
+		}
+
+		.link:hover {
+			color: #f7752e;
+		}
+
+		ul li a{
+			text-decoration: none;
+		}
+
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+		}
+
+		.header {
+			text-align: center;
+			color: #f7750f;
+			font-size: 25px;
+			padding-top: 125pt;
+			padding-bottom: 300pt;
+		}
+
+		#offer {
+			font-size: 60pt;
+			font-family: 'Pacifico', cursive;
+		}
+
+		#about {
+			text-align: center;
+			background: #e7712e;
+			padding: 170pt 90pt;
+		}
+
+		#login {
+			padding: 100pt 100pt;
+			padding-bottom: 325pt;
+			text-align: center;
+			color: #f7750f;
+			background: black;
+		}
+
+		#signup {
+			text-align: center;
+			padding: 100pt 100pt;
+			padding-bottom: 325pt;
+			background: #e7712e;
+			color: black;
+		}
+
+		.button {
+		    border: none;
+		    color: white;
+		    padding: 16px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    margin: 100px 5px;
+		    -webkit-transition-duration: 0.4s;
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+
+		.driver {
+		    background-color: transparent; 
+		    color: #f7750f; 
+		    border: 2px solid #f7750f;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		    float: left;
+		}
+
+		.driver:hover {
+		    background-color: #f7750f;
+		    color: black;
+		}
+
+		.drivers {
+		    background-color: transparent; 
+		    color: black; 
+		    border: 2px solid black;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		    float: left;
+		}
+
+		.drivers:hover {
+		    background-color: black;
+		    color: #e7712e;
+		}
+
+		.rider {
+		    background-color: transparent; 
+		    color: #f7750f; 
+		    border: 2px solid #f7750f;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		    float: right;
+		}
+
+		.rider:hover {
+		    background-color: #f7750f;
+		    color: black;
+		}
+
+		.riders {
+		    background-color: transparent; 
+		    color: black; 
+		    border: 2px solid black;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		    float: right;
+		}
+
+		.riders:hover {
+		    background-color: black;
+		    color: #e7712e;
+		}
+
+		h2 {
+			font-size: 32pt;
+			font-family: 'Baloo Bhai', cursive;
+		}
+
+		.team {
+			font-size: 16pt;
+			padding: 20pt 20pt;
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			background: black;
+			color: #f7752e;
+		}
+
+		/*Styling driver page*/
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			color: #d7d7d7;
+			background: #f7751f;
+			margin: 0;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		nav {
+			position: fixed;
+			width: 100%;
+			background: rgba(0,0,0,0.6);
+		}
+
+		#header {
+			background: url(car-bg-drive.jpg) no-repeat center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			-o-background-size: cover;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.link {
+			font-family: 'Baloo Bhai', cursive;
+			color: #d2d2d2;
+			margin-right: 50px;
+			font-size: 14pt;
+		}
+
+		.link:hover {
+			color: #f7752e;
+		}
+
+		ul li a{
+			text-decoration: none;
+		}
+
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+		}
+
+		.profile {
+			margin-left: 50pt;
+		}
+
+		.header {
+			text-align: center;
+			color: #f7750f;
+			font-size: 25px;
+			padding-top: 125pt;
+			padding-bottom: 300pt;
+			background: rgba(0,0,0,0.2);
+		}
+
+		#make {
+			font-size: 60pt;
+			color: #d7d7d7;
+			font-family: 'Pacifico', cursive;
+		}
+
+		#create {
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			padding: 100pt 90pt;
+		}
+
+		#view {
+			text-align: center;
+			background: rgba(0,0,0,0.5);
+			padding: 100pt 90pt;
+			color: #d0d0d0;
+		}
+
+		#ride {
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			padding: 85pt 90pt;
+			color: #c8c8c8;
+		}
+
+		h2 {
+			font-size: 32pt;
+			font-family: 'Baloo Bhai', cursive;
+		}
+
+		.detail {
+			font-size: 16pt;
+			padding: 20pt 20pt;
+		}
+
+		td, th {
+			font-size: 16pt;
+			padding: 5pt 30pt;
+		}
+		
+		input[type=text] {
+		  font-family: 'Kodchasan', sans-serif;
+		  font-size: 14pt;
+		  color: #e8e8e8;
+		  text-align: center;
+		  padding: 5pt 30pt;
+		  background: transparent;
+		  border-top: none;
+		  border-left: none;
+		  border-right: none;
+		}
+
+		.button {
+		    border: none;
+		    padding: 16px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    margin: 100px 5px;
+		    -webkit-transition-duration: 0.4s;
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+
+		.save {
+		    background-color: transparent; 
+		    color: #d7d7d7; 
+		    border: 2px solid #e8e8e8;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		}
+
+		.save:hover {
+		    background-color: rgba(0,0,0,0.6);
+		    color: #f37430;
+		    border: 2px solid rgba(255,255,255,0.6);
+		}
+
+		.accept {
+		    background-color: transparent; 
+		    color: #e8e8e8; 
+		    border: 2px solid #e8e8e8;
+		    border-radius: 5px;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 12pt;
+		    padding: 10px 12px;
+            margin: 5px 5px;
+		}
+
+		.accept:hover {
+		    background-color: rgba(0,0,0,0.6);
+		    color: #f37430;
+		    border: 2px solid rgba(255,255,255,0.6);
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			background: black;
+			color: #f7752e;
+		}
+
+		/*Styling rider page*/
+		body {
+			font-family: 'Kodchasan', sans-serif;
+			color: #e0e0e0;
+			background: #f7751f;
+			margin: 0;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		nav {
+			position: fixed;
+			width: 100%;
+			background: rgba(0,0,0,0.6);
+		}
+
+		#header {
+			background: url(car-bg-drive.jpg) no-repeat center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			-o-background-size: cover;
+		}
+
+		.brand {
+			font-family: 'Shadows Into Light Two', cursive;
+			margin-right: 90px;
+			color: #f7751e;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.link {
+			font-family: 'Baloo Bhai', cursive;
+			color: #d2d2d2;
+			margin-right: 50px;
+			font-size: 14pt;
+		}
+
+		.link:hover {
+			color: #f7752e;
+		}
+
+		ul li a{
+			text-decoration: none;
+		}
+
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+		}
+
+		.profile {
+			margin-left: 50pt;
+		}
+
+		.header {
+			text-align: center;
+			color: #f7750f;
+			font-size: 25px;
+			padding-top: 125pt;
+			padding-bottom: 300pt;
+		}
+
+		#join {
+			font-size: 60pt;
+			color: #e0e0e0;
+			font-family: 'Pacifico', cursive;
+		}
+
+		#respond {
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			padding: 100pt 90pt;
+		}
+
+		#view {
+			text-align: center;
+			background: rgba(0,0,0,0.5);
+			padding: 100pt 90pt;
+			color: #d0d0d0;
+		}
+
+		#ride {
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			padding: 85pt 90pt;
+			color: #c8c8c8;
+		}
+
+		h2 {
+			font-size: 32pt;
+			font-family: 'Baloo Bhai', cursive;
+		}
+
+		.detail {
+			font-size: 16pt;
+			padding: 20pt 20pt;
+		}
+
+		.button {
+		    border: none;
+		    padding: 12px 16px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    margin: 10px 5px;
+		    -webkit-transition-duration: 0.4s;
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		    border-radius: 5px;
+		}
+
+		.accept {
+		    background-color: transparent; 
+		    color: #e8e8e8; 
+		    border: 2px solid #e8e8e8;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 12pt;
+		}
+
+		.accept:hover {
+		    background-color: rgba(0,0,0,0.6);
+		    color: #f37430;
+		    border: 2px solid rgba(255,255,255,0.6);
+		}
+
+		td, th {
+			font-size: 16pt;
+			padding: 5pt 30pt;
+		}
+
+		input[type=text] {
+			font-family: 'Kodchasan', sans-serif;
+			font-size: 14pt;
+			color: #e8e8e8;
+			text-align: center;
+			padding: 5pt 30pt;
+			background: transparent;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+		}
+
+		.request {
+		    background-color: transparent; 
+		    color: #d7d7d7; 
+		    border: 2px solid #e8e8e8;
+		    text-transform: uppercase;
+		    font-family: 'Kodchasan', sans-serif;
+		    font-size: 16pt;
+		    margin-top: 30pt;
+		    margin-bottom: 5pt; 
+		}
+
+		.request:hover {
+		    background-color: rgba(0,0,0,0.6);
+		    color: #f37430;
+		    border: 2px solid rgba(255,255,255,0.6);
+		}
+
+		.footer {
+			text-align: center;
+			padding: 8pt 8pt;
+			background: black;
+			color: #f7751f;
+		}
