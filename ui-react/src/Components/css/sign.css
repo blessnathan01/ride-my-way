@@ -1,0 +1,125 @@
+#signup {
+  background: #000;
+  font-family: "Kodchasan", sans-serif;
+  color: #f7751f;
+}
+
+.body-in {
+  background-color: #000;
+  color: #f7750f;
+  margin: 0;
+}
+
+form {
+  margin-top: 60px;
+  margin-left: 300px;
+  border: 2px solid #f7750f;
+  border-radius: 5px;
+  width: 35%;
+  padding: 50px 40px;
+  font-size: 16px;
+}
+
+.input {
+  width: 100%;
+  color: #f7751f;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #f7750f;
+  box-sizing: border-box;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 16px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.submit {
+  width: 100%;
+  background-color: #f7750f;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.submit:hover {
+  background: #ff9100;
+}
+
+.backtoLogin {
+  font-size: 14px;
+  color: #f7751f;
+  font-style: italic;
+}
+
+.login,
+.signup {
+  font-weight: 600;
+  text-decoration: none;
+  color: #f7750f;
+  font-style: normal;
+}
+
+/* LABEL */
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #bbb;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #f7751f;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ddd;
+}

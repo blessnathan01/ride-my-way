@@ -1,0 +1,171 @@
+.body2 {
+  font-family: "Kodchasan", sans-serif;
+  color: #d7d7d7;
+  background: #f7751f;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#header2 {
+  background: url("../imgs/car-bg-drive.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.brand2 {
+  font-family: "Shadows Into Light Two", cursive;
+  margin-left: 40px;
+  margin-right: 80px;
+  color: #f7751e;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link2 {
+  font-family: "Baloo Bhai", cursive;
+  color: #d2d2d2;
+  margin-right: 50px;
+  font-size: 14pt;
+}
+
+.link2:hover {
+  color: #f7752e;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.profile1 {
+  margin-left: 50pt;
+}
+
+.header2 {
+  text-align: center;
+  color: #f7750f;
+  font-size: 25px;
+  padding-top: 125pt;
+  padding-bottom: 300pt;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.make {
+  font-size: 60pt;
+  color: #d7d7d7;
+  font-family: "Pacifico", cursive;
+}
+
+#create {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 100pt 90pt;
+}
+
+#view1 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100pt 90pt;
+  color: #d0d0d0;
+}
+
+#ride1 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 85pt 90pt;
+  color: #c8c8c8;
+}
+
+h2 {
+  font-size: 32pt;
+  font-family: "Baloo Bhai", cursive;
+}
+
+.detail1 {
+  font-size: 16pt;
+  padding: 20pt 20pt;
+}
+
+td,
+th {
+  font-size: 16pt;
+  padding: 5pt 30pt;
+}
+
+input[type="text"] {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 14pt;
+  color: #e8e8e8;
+  text-align: center;
+  padding: 5pt 30pt;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 100px 5px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.save {
+  background-color: transparent;
+  color: #d7d7d7;
+  border: 2px solid #e8e8e8;
+  text-transform: uppercase;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 16pt;
+  margin-top: 60pt;
+}
+
+.save:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #f37430;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.accept1 {
+  background-color: transparent;
+  color: #e8e8e8;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 12pt;
+  padding: 10px 12px;
+  margin: 5px 5px;
+}
+
+.accept1:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #f37430;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  margin-left: 10px;
+}
